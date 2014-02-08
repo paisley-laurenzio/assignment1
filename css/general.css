@@ -19,9 +19,47 @@ html {
 	text-size-adjust: 100%;
     
     font-size: 100%;
+    font-family: Century Gothic, Avon Garde, sans-serif;
 }
 
 img {
 	width: 100%;
     display: block;
 }
+
+body { 
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    overflow: hidden;
+    background-color:lightgrey;
+}
+
+.logo {
+    height: 4rem;
+    width: auto;
+    padding: .5rem 5%;
+}
+
+.billboard {
+    overflow: hidden;
+    background-image: url(../images/billboard.jpg);
+    background-color: black;
+    background-repeat: no-repeat;
+    background position: center center;
+    background-size: 40rem;
+}
+
+h1 {
+    margin: 6rem;
+    font-family: Century Gothic; 
+    text-transform: uppercase;
+    padding: .25rem 5%;
+}
+
+footer {
+    background-color: lightgrey;
+    overflow: hidden;
+    
