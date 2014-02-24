@@ -126,10 +126,14 @@ footer {
 footer p{
     font-size: .75rem;
     float: left;
+    position:inherit;
+
 }
 
 .twitter {
-    height: 3rem;
+    height: 2rem;
     width: auto;
     float: right;
+    position:inherit;
+    margin-top: .45rem;
 }
