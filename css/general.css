@@ -46,14 +46,14 @@ header {
 .billboard {
     overflow: hidden;
     background-image: url(../images/billboard.jpg);
-    background-color: black;
+    background-color: lightgrey;
     background-repeat: no-repeat;
     background position: center center;
-    background-size: 40rem;
+    background-size: 100%;
 }
 
 h1 {
-    margin: 6rem;
+    margin: 2rem 0 1rem;
     font-family: Century Gothic; 
     font-weight: normal;
     font-size: 1.5rem;
