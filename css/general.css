@@ -38,7 +38,7 @@ header {
 }
 
 .logo {
-    height: 5.5rem;
+    height: 4.5rem;
     width: auto;
     padding: .5rem 5%;
 }
@@ -63,6 +63,58 @@ h1 {
     padding: .25rem 5%;
 }
 
+blockquote {
+    margin: 0 0 0;
+    padding: 0 0 0 0;
+    overflow: hidden;
+}
+
+blockquote p {
+    font-size: 2.5rem;
+    line-height: 3rem;
+}
+
+blockquote p:before {
+    content: "“";
+    font-size: 7rem;
+    float: left;
+    margin: 1rem 0 0 0;
+}
+ 
+blockquote p:after {
+    content: "”";
+    font-size: 7rem;
+    float: right;
+    position: absolute;
+    margin: 1rem 0 0;
+}
+
+span {
+    font-size: 1.5rem;
+    float: right;
+    padding: 1.5rem;
+    margin-top: -4rem;
+}
+    
+h2 {
+    font-size: 3rem;
+    font-weight: normal;
+    text-align: center;
+}
+
+p {
+    line-height: 1.5rem;
+    margin-bottom: 2rem;
+}
+    
+figure {
+    border: solid .35rem rgba(0, 0, 0, .8);
+}
+
+figcaption {
+    margin-left: .5rem;
+}
+
 footer {
     background-color: lightgrey;
     overflow: hidden;
@@ -71,30 +123,11 @@ footer {
 
 footer p{
     font-size: .75rem;
+    float: left;
 }
 
 .twitter {
-    height: 4rem;
+    height: 3rem;
     width: auto;
+    float: right;
 }
-    
-.quote {
-    font-size: 2.25rem;
-    text-align: center;
-}
-
-h2 {
-    font-size: 3rem;
-    font-weight: normal;
-    text-align: center;
-}
-
-p {
-    padding: 1.5rem;
-}
-    
-figure {
-    border: solid .35rem rgba(0, 0, 0, .8);
-}
-    
-    
