@@ -48,7 +48,7 @@ header {
     background-image: url(../images/billboard.jpg);
     background-color: lightgrey;
     background-repeat: no-repeat;
-    background position: center;
+    background position: center center;
     background-size: 100%;
 }
 
