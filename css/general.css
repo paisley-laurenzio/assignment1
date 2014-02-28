@@ -48,13 +48,13 @@ header {
     background-image: url(../images/billboard.jpg);
     background-color: lightgrey;
     background-repeat: no-repeat;
-    background position: center center;
+    background position: center;
     background-size: 100%;
 }
 
 h1 {
     margin: 2rem 0 1rem;
-    font-family: Century Gothic; 
+    font-family: Century GothicAppleGothic, sans-serif; 
     font-weight: normal;
     font-size: 1.5rem;
     color: black;
